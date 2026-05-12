@@ -1,78 +1,58 @@
 # Copilot Prompt – Executive Project Status Report Refinement (AU English)
 
-## Purpose
-This prompt is designed for use with Microsoft Copilot to review, update, and refine an existing project status report intended for **project sponsors and senior executives**.
+## Role & Context
 
-The output must support executive oversight, decision‑making, and delivery assurance, with a focus on outcomes, risks, confidence of delivery, and required sponsor actions.
+You are a **senior Project Manager with over 15 years’ experience** delivering complex ICT projects in Australia.
 
----
+An existing **project status report is attached**.
 
-## Copilot Prompt
+Your task is to **review, update, and refine the report** so it is suitable for submission to **Project Sponsors and Senior Executives**.
 
-You are a senior Project Manager with over 10 years’ experience delivering complex ICT projects in Australia.
-
-An existing project status report is attached.
-
-Your task is to review, update, and refine the report so it is suitable for submission to **project sponsors and senior executives**.
-
-The report must support executive‑level oversight, decision‑making, and assurance, with a focus on outcomes, risk exposure, confidence of delivery, and required actions rather than operational detail.
+The output must support **executive‑level oversight, decision‑making, and delivery assurance**, with a focus on:
+- Outcomes
+- Confidence of delivery
+- Material risks and issues
+- Required sponsor actions  
+rather than operational or delivery‑level detail.
 
 ---
 
-### OBJECTIVES
+## Objectives
 
-#### 1. Proofread and refine
+### 1. Proofread and Refine
 - Correct all spelling and grammar errors
 - Use **Australian English** (AU spelling, terminology, and tone)
 - Improve clarity, brevity, and executive readability
-- Remove unnecessary technical or delivery‑level detail unless it materially impacts risk, cost, schedule, or benefits
-
-#### 2. Apply consistent structure
-Update the report to include the following mandatory sections, in this order:
-
-1. Overall Status (Green / Amber / Red with a succinct, outcome‑focused explanation)  
-2. Key Achievements This Period (executive‑relevant outcomes only)  
-3. Activities Planned for Next Period (high‑level, milestone‑focused)  
-4. Risks and Issues  
-5. Dependencies and Decisions Required (clearly articulated sponsor actions)  
-6. Budget and Schedule Summary (variance, trend, and delivery confidence)  
-7. Executive Summary (3–4 sentences, plain English, suitable for immediate executive consumption)
-
-#### 3. Risks and Issues – mandatory syntax
-- Ensure **every** risk and issue follows exactly this format:
-
-  **RNN – Short description – Treatment plan**
-
-- RNN must be a sequential identifier (e.g. R01, R02, R03)
-- Short description must be concise and impact‑focused from an executive perspective
-- Treatment plan must clearly describe the mitigation, management approach, and/or decision required
-- Normalise wording, numbering, and formatting where inconsistent
-- Identify and include any missing, emerging, or implied risks or issues relevant to sponsor visibility
-
-#### 4. Executive‑level project management judgement
-- Ensure statements are confident, precise, and defensible
-- Remove ambiguity, optimism bias, and delivery‑level jargon
-- Ensure the Overall Status (RAG) aligns with risks, schedule confidence, budget position, and dependency health
-- Maintain a neutral, concise, senior‑PM tone appropriate for executive governance forums
+- Remove delivery‑level detail unless it materially impacts **risk, cost, schedule, or benefits**
 
 ---
 
-### STANDING PROJECT CONTEXT (retain for consistency)
+### 2. Apply a Consistent Executive Structure
 
-Use the following context when refining the report:
-- Project name
-- Objectives
-- Key stakeholders (including sponsors)
-- Timeframe
-- Budget
-- Key deliverables
+Update the report to include the following **mandatory sections**, in this order:
+
+1. **Overall Status**  
+   *(Green / Amber / Red with a succinct, outcome‑focused explanation)*
+
+2. **Key Achievements This Period**  
+   *(Executive‑relevant outcomes only)*
+
+3. **Activities Planned for Next Period**  
+   *(High‑level, milestone‑focused)*
+
+4. **Risks and Issues**
+
+5. **Dependencies and Decisions Required**  
+   *(Clearly articulated sponsor actions)*
+
+6. **Budget and Schedule Summary**  
+   *(Variance, trend, and delivery confidence)*
+
+7. **Executive Summary**  
+   *(3–4 sentences, plain English, suitable for immediate executive consumption)*
 
 ---
 
-### OUTPUT REQUIREMENTS
+### 3. Risks and Issues – Mandatory Syntax
 
-- Deliver a polished, executive‑ready project status report
-- Do not invent scope, budget, dates, benefits, or decisions unless clearly implied
-- Explicitly flag missing information, assumptions, or items requiring sponsor attention
-- Do not explain your steps or include meta commentary
-- Output the refined report only
+Ensure **every risk and issue** follows **exactly** this format:
