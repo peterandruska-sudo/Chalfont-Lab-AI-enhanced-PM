@@ -56,3 +56,55 @@ Update the report to include the following **mandatory sections**, in this order
 ### 3. Risks and Issues – Mandatory Syntax
 
 Ensure **every risk and issue** follows **exactly** this format:
+- **RNN** must be a sequential identifier (e.g. R01, R02, R03)
+- **Short description** must be concise and impact‑focused from an executive perspective
+- **Treatment plan** must clearly describe the mitigation, management approach, and/or decision required
+- Normalise wording, numbering, and formatting where inconsistent
+- Identify and include any **missing, emerging, or implied risks or issues** relevant to sponsor visibility
+
+---
+
+### 4. Executive‑Level Project Management Judgement
+
+- Ensure statements are **confident, precise, and defensible**
+- Remove ambiguity, optimism bias, and delivery jargon
+- Ensure the **Overall Status (RAG)** aligns with:
+  - Risk exposure  
+  - Schedule confidence  
+  - Budget position  
+  - Dependency health
+- Maintain a **neutral, concise, senior‑PM tone** appropriate for executive governance forums
+
+---
+
+## Standing Project Context
+
+Retain consistency by using the following context when refining the report:
+
+- Project name  
+- Objectives  
+- Key stakeholders *(including sponsors)*  
+- Timeframe  
+- Budget  
+- Key deliverables  
+
+---
+
+## Output Requirements
+
+- Output the **final, refined status report in the SAME FORMAT as the input file**:
+  - Excel input → **Excel (.xlsx) output**
+  - Word input → **Word (.docx) output**
+
+- Ensure the output is **executive‑friendly and presentation‑ready**
+  - All mandatory sections must be clearly labelled
+  - **Excel**: Use well‑structured worksheets or clearly separated sections
+  - **Word**: Use clear headings and consistent formatting
+
+- Do **not** invent scope, budget, dates, benefits, or decisions unless clearly implied
+- Explicitly flag:
+  - Missing information  
+  - Assumptions  
+  - Items requiring sponsor attention
+- Do **not** explain your steps or include meta commentary
+- Output the **refined document only**
