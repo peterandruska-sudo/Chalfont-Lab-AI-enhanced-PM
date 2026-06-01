@@ -1,177 +1,203 @@
-📘 README – Meeting Notes Prompt (Project-Focused)
-✅ Overview
-This prompt is designed to generate structured, action-oriented meeting notes from project status update transcripts.
-It is optimised for:
+# 📘 Meeting Notes Generator (Senior PM Standard)
 
-Project Managers
-Meeting participants
-Governance-aligned project environments (e.g. RAID-driven delivery)
+## Overview
+This prompt is designed to generate **structured, executive-quality meeting notes** from a project status meeting transcript.
 
-The output is clear, structured, and immediately usable, with a strong emphasis on:
+It applies **Senior Project Manager governance standards** to extract:
 
-Decisions
-Actions
-Work package progress
-Traceability to source discussions
+- Decisions  
+- Actions  
+- Issues  
+- Risks  
+- Work package updates  
+- Key discussion context  
 
+The output is optimised for **formal project records, RAID logs, and executive reporting**.
 
-🎯 Use Case
-Use this prompt when you need to:
+---
 
-Convert meeting transcripts into clean, structured notes
-Capture decisions and actions in a consistent format
-Provide a single source of truth for meeting outcomes
-Enable rapid follow-up without re-reading transcripts
+## 🎯 Key Outcomes
 
-Typical inputs:
+Using this prompt ensures:
 
-Teams meeting transcript
-Workshop transcript
-Project status meeting notes (raw)
+- Clear separation of **decisions vs discussions**
+- Full traceability to the **source transcript**
+- Structured outputs suitable for **Word, Excel, or SharePoint**
+- Immediate usability for **project governance and delivery tracking**
+- Consistent application of **RAID discipline**
 
+---
 
-📥 Input Requirements
-The prompt expects:
+## 👥 Target Audience
 
-A complete meeting transcript
-Ideally includes:
+- Project Managers  
+- Delivery teams  
+- Project governance forums (SteerCo, PMO)  
 
-Meeting date (used for ID generation)
-Named speakers
-Clear discussion flow
+---
 
+## 🇦🇺 Language Standard (Mandatory)
 
+All outputs:
 
+- Use **Australian English**  
+- Follow professional, formal workplace tone  
+- Avoid casual, speculative, or subjective language  
 
-📤 Output Structure
-The prompt generates five structured sections:
-1. Overall Status Summary
+---
 
-Current project position
-Key progress
-Constraints, risks, dependencies
-Phase transitions or milestones
+## 🧠 What the Prompt Does
 
-2. Work Package Updates
-| Work Package | Progress | Milestones | Issues / Blockers | Next Focus |
+The prompt:
 
-Only includes work packages explicitly discussed
-Structured for quick scanning
+1. Analyses a full meeting transcript  
+2. Identifies the meeting date  
+3. Extracts key delivery information  
+4. Structures outputs into governance-ready formats  
+5. Applies strict rules to avoid inference or ambiguity  
 
-3. Decisions Register
-| Decision ID | Decision | Owner / Accountable | Context / Rationale |
+---
 
-Captures confirmed decisions only
-No proposals or discussions
+## 📦 Output Structure
 
-4. Actions Register
-| Action ID | Action Description | Owner | Due Date | Status |
+The generated output includes:
 
-Captures all follow-up activities
-Focus on accountability and execution
+### 1. Overall Status Summary
+- Current project phase/status  
+- Key progress  
+- Constraints, risks, and dependencies  
+- Milestones or phase transitions  
 
-5. Key Discussion Points (Optional)
+### 2. Work Package Updates
+Structured table of:
 
-Supporting context only
-Limited to critical insights
+- Progress since last update  
+- Key milestones  
+- Issues/blockers  
+- Next focus  
 
+---
 
-🆔 ID Convention (Critical)
-All Decisions and Actions follow a structured ID format:
+### 3. Decisions Register
 
-Actions: A<MM>.<DD>.<NN>
-Decisions: D<MM>.<DD>.<NN>
+| Field | Description |
+|------|-------------|
+| Decision ID | Unique identifier (DMM.DD.NN) |
+| Decision | Confirmed outcome |
+| Owner | Accountable party (if stated) |
+| Context | Supporting rationale |
 
-Example:
+---
 
-A05.10.01 → First action from 10 May
-D05.10.01 → First decision from 10 May
+### 4. Actions Register
 
-Rules:
+| Field | Description |
+|------|-------------|
+| Action ID | Unique identifier (AMM.DD.NN) |
+| Action | Specific task |
+| Owner | Responsible person |
+| Due Date | If stated |
+| Status | Optional |
 
-MM = Month (2 digits)
-DD = Day (2 digits)
-NN = Sequential number starting from 01
-Separate numbering for Actions and Decisions
-IDs must follow order of appearance in the transcript
-No gaps or duplication
+---
 
+### 5. Issues Register
 
-⚙️ How to Use
-Step 1 – Copy the Prompt
-Copy the full prompt into your tool (e.g. Copilot, ChatGPT, Agent Builder).
-Step 2 – Attach Transcript
-Paste or upload the meeting transcript.
-Step 3 – Run the Prompt
-Execute the prompt to generate the structured output.
-Step 4 – Review Output
-Quickly check:
+| Field | Description |
+|------|-------------|
+| Issue ID | Unique identifier (IMM.DD.NN) |
+| Issue | Current problem |
+| Impact | Delivery impact |
+| Owner | If stated |
+| Status | If stated |
 
-Decisions vs Actions separation
-ID format compliance
-Completeness of work package updates
+---
 
+### 6. Risks Register
 
-✅ Quality Controls (Built In)
-The prompt enforces:
+| Field | Description |
+|------|-------------|
+| Risk ID | Unique identifier (RMM.DD.NN) |
+| Risk | Future uncertainty |
+| Potential Impact | Delivery implication |
+| Likelihood | If stated |
+| Owner | If stated |
+| Mitigation | If stated |
 
-✅ Australian English (spelling + tone)
-✅ No inferred content
-✅ Strict decision/action classification
-✅ Traceability to transcript
-✅ Structured, non-narrative output
-✅ Practical, execution-ready notes
+---
 
+### 7. Key Discussion Points
+- 3–5 concise bullets  
+- Only critical context supporting outcomes  
 
-⚠️ Known Limitations
+---
 
+## 🔢 ID Convention
 
-If the meeting date is missing, IDs may default incorrectly
-→ Recommend including date in transcript or metadata
+All artefacts follow strict ID formatting:
 
+| Type      | Format      | Example     |
+|----------|------------|------------|
+| Action   | AMM.DD.NN  | A05.10.01  |
+| Decision | DMM.DD.NN  | D05.10.01  |
+| Issue    | IMM.DD.NN  | I05.10.01  |
+| Risk     | RMM.DD.NN  | R05.10.01  |
 
-If ownership is not stated, fields remain blank
-→ This is intentional (no inference allowed)
+**Rules:**
+- Reset numbering per category  
+- Sequence based on transcript order  
+- Do not skip or reuse IDs  
 
+---
 
-Highly unstructured transcripts may reduce output quality
-→ Best results with speaker-labelled transcripts
+## ⚖️ Governance Rules (Critical)
 
+- No inference of:
+  - Owners  
+  - Dates  
+  - Decisions  
+  - Risk ratings  
 
+- Decisions must be:
+  - Explicitly agreed  
+  - Written as completed outcomes  
 
-💡 Best Practices
-To maximise output quality:
+- Actions must be:
+  - Specific and executable  
 
-✅ Ensure transcript includes speaker identifiers
-✅ Include clear meeting date
-✅ Run prompt immediately after meetings (fresh context)
-✅ Pair with RAID log updates for governance tracking
-✅ Store outputs in SharePoint or project artefacts repository
+- Risks and Issues must:
+  - Be clearly distinguishable  
+  - Not be misclassified  
 
+- All outputs must be:
+  - **Traceable to the transcript**
+  - **Standalone and audit-ready**
 
-🔁 Reuse & Integration
-This prompt works well with:
+---
 
-Microsoft 365 Copilot (Word / Teams / Loop)
-Copilot Agent Builder (as a system instruction)
-GitHub repositories for prompt libraries
-Project governance workflows (RAID logs, status reports)
+## ✅ Quality Checks
 
+Before finalising output, ensure:
 
-🚀 Optional Enhancements
-Consider extending with:
+- Decisions, Actions, Risks, Issues are distinct  
+- ID conventions are correct and sequential  
+- No assumptions or inferred data  
+- Output is concise and structured  
+- Language complies with Australian standards  
 
-RAID log auto-generation
-Risk scoring (Likelihood × Consequence)
-Automated executive summary extraction
-Integration into project reporting templates
+---
 
+## 🚀 How to Use
 
-📌 Summary
-This prompt provides a repeatable, governance-aligned way to turn meeting transcripts into:
+1. Copy the prompt into **Copilot / GPT / Agent Builder**  
+2. Provide a **meeting transcript**  
+3. Run the prompt  
+4. Copy output into:
+   - Meeting minutes  
+   - RAID log  
+   - Status reports  
 
-Clear decisions
-Actionable next steps
-Structured project insights
+---
 
-Designed for real-world project delivery, not just summarisation.
+## 📁 Suggested Repository Structure
+
