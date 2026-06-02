@@ -32,9 +32,7 @@ This repository includes:
 
 - Copilot chat prompts (status reports, RAID analysis)
 - Copilot agent system prompts
-- Reusable prompt patterns for PMO governance
 - Workshop lab materials
-- Templates for executive reporting
 
 All artefacts are:
 
