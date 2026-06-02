@@ -1,89 +1,153 @@
-# Chalfont‑Lab‑AI‑Enhanced‑PM
-## Copilot Prompts & Agent Assets
+# Chalfont Lab - AI Enhanced Project Management
+Copilot Prompts and Agent Assets
+
+---
 
 ## Overview
 
-This repository contains **prompts, Copilot Agent definitions, and supporting assets** developed for the **Chalfont‑Lab‑AI‑Enhanced‑PM Workshop**.
+This repository contains Copilot prompts, agent definitions, and supporting artefacts developed for the Chalfont Lab AI Enhanced Project Management workshop.
 
-The repository serves as a **central, version‑controlled source of truth** for all artefacts used to demonstrate and enable **AI‑assisted project management practices** using Microsoft Copilot and related tooling.
+It acts as a central, version-controlled source of truth for assets that support AI-assisted project management using Microsoft 365 Copilot.
 
-All assets are designed for professional use by experienced project managers operating in complex, executive‑governed environments.
+All assets are designed for enterprise environments and support executive governance, sponsor assurance, and high-quality delivery outcomes.
 
 ---
 
 ## Workshop Context
 
-**Chalfont‑Lab‑AI‑Enhanced‑PM** is a practical workshop focused on:
+The Chalfont Lab AI Enhanced PM workshop focuses on:
 
-- Applying AI responsibly to real‑world project management artefacts
-- Elevating executive reporting quality using Microsoft Copilot
-- Demonstrating repeatable prompt and agent patterns for PMO environments
-- Supporting sponsor‑level assurance, decision‑making, and confidence
+- Applying AI to real-world project management artefacts
+- Improving executive reporting using Microsoft Copilot
+- Demonstrating repeatable prompt and agent patterns
+- Supporting sponsor-level decision making and assurance
 
-This repository underpins the workshop by providing **ready‑to‑use, adaptable assets** rather than theoretical examples.
-
----
-
-## What This Repository Contains
-
-The repository is used to store:
-
-- ✅ **Copilot chat prompts** (e.g. executive status reporting, RAID analysis)
-- ✅ **Copilot Agent system prompts**
-- ✅ **Reusable prompt patterns** for PMO and governance contexts
-- ✅ **Workshop lab materials** related to AI‑enhanced project delivery
-- ✅ **Templates and conventions** aligned to executive reporting standards
-
-Assets are written to be:
-- Practical
-- Workshop‑safe
-- Enterprise‑ready
-- Easily extensible beyond the lab environment
+This repository provides practical, ready-to-use assets rather than theory.
 
 ---
 
-## Target Audience
+## Repository Contents
 
-**Workshop participants:**
-- Senior Project Managers
-- Program Managers
-- PMO practitioners
-- Delivery and governance leads
+This repository includes:
 
-**Intended output audience (for generated artefacts):**
-- Project Sponsors
-- Senior Executives
-- Steering Committees
-- Governance and assurance forums
+- Copilot chat prompts (status reports, RAID analysis)
+- Copilot agent system prompts
+- Reusable prompt patterns for PMO governance
+- Workshop lab materials
+- Templates for executive reporting
 
----
+All artefacts are:
 
-## Key Design Principles
-
-All assets in this repository follow these principles:
-
-- **Executive‑first**: Outputs are designed for sponsor‑level consumption
-- **Professional judgement embedded**: Prompts reflect senior PM thinking
-- **Consistency by design**: Standardised structures and terminology
-- **Australian context**: AU English spelling, tone, and conventions
-- **No hallucinated content**: Missing or unclear inputs must be flagged
+- Practical and workshop-ready
+- Enterprise-grade
+- Reusable and extensible
 
 ---
 
 ## Example Asset
 
-### Executive Project Status Report Prompt
+Executive Status Report Prompt
 
-The repository includes a Copilot prompt to refine project status reports so they are suitable for executive governance forums.
+This repository includes a prompt designed to refine project status reports by:
 
-Key features:
-- Mandatory executive‑level report structure
-- Consistent risk and issue formatting
-- Alignment between RAG status, risk exposure, and delivery confidence
-- Clear articulation of sponsor decisions and dependencies
+- Preserving original document structure (Excel and Word)
+- Applying executive-level tone using Australian English
+- Retaining RAG status and reporting conventions
+- Standardising risks, issues, and dependencies
+- Supporting sponsor decision-making
+
+---
+
+## Target Audience
+
+Workshop Participants:
+
+- Senior Project Managers
+- Program Managers
+- PMO practitioners
+- Delivery and governance leads
+
+Output Consumers:
+
+- Project Sponsors
+- Senior Executives
+- Steering Committees
+- Governance forums
+
+---
+
+## Key Design Principles
+
+Executive-first  
+Outputs are designed for sponsor audiences.
+
+Professional judgement  
+Prompts reflect senior PM thinking.
+
+Consistency  
+Standardised structure and terminology.
+
+Australian context  
+AU spelling, tone, and conventions.
+
+No hallucinations  
+Missing or unclear inputs must be flagged.
+
+---
+
+## How to Use
+
+1. Select a prompt relevant to your use case  
+2. Use it within Microsoft Copilot  
+3. Attach your input artefact (status report, RAID log, etc.)  
+4. Review the output carefully  
+5. Refine as needed for your environment  
 
 ---
 
 ## Repository Structure
 
-``
+Chalfont-Lab-AI-enhanced-PM/
+
+- EXECUTIVE_STATUS_REPORT_PROMPT.md
+- README.md
+
+Additional assets will be added over time.
+
+---
+
+## Contributions
+
+This repository will evolve through workshop feedback.
+
+You can contribute by:
+
+- Improving existing prompts
+- Adding new prompt patterns
+- Enhancing consistency and clarity
+
+---
+
+## Disclaimer
+
+These assets are workshop artefacts and must be used with:
+
+- Appropriate governance controls
+- Organisational context awareness
+- Professional judgement
+
+AI outputs must always be reviewed before use in production environments.
+
+---
+
+## Repository Link
+
+https://github.com/peterandruska-sudo/Chalfont-Lab-AI-enhanced-PM
+
+---
+
+## Author
+
+Developed as part of the Chalfont Lab AI Enhanced PM initiative.
+
+---
