@@ -1,59 +1,79 @@
 📊 Executive Project Status Report Refinement (AU English)
-Overview
+
+📝 Overview
 This repository contains a prompt designed to help Microsoft 365 Copilot refine project status reports into executive-ready deliverables.
-The prompt applies senior project management judgement, enforces strict governance controls, and ensures outputs remain structurally identical to the original document.
+The prompt applies:
+
+✅ Senior project management judgement
+✅ Strict governance controls
+✅ Structural preservation of source documents
+
 
 🎯 When to Use This Prompt
 Use this prompt when you need to:
 
-Prepare a status report for Sponsors or Steering Committees
-Improve the quality and consistency of project reporting
-Remove informal, delivery-level language
-Align reporting with executive expectations and governance standards
-Standardise risk and issue formatting
+Prepare reports for Sponsors or Steering Committees
+Improve clarity, tone, and professionalism
+Remove informal or delivery-level language
+Enforce consistent governance standards
+Standardise risk and issue reporting
 
 
 📁 Supported File Types
 
-✅ Excel (.xlsx) status reports
-✅ Word (.docx) status reports
 
 
-⚠️ Key Principle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FormatSupportedExcel (.xlsx)✅Word (.docx)✅
+
+⚠️ Key Principle (Non-Negotiable)
 
 This prompt refines content — it does NOT redesign the document.
 
-The output will:
+✅ The output WILL:
 
-Match the original structure, layout, and format
-Maintain all tables, headings, and sections
+Match the original structure and layout
+Retain all tables, headings, and sections
 Update content in place only
+
+🚫 The output will NOT:
+
+Restructure the document
+Convert to narrative format
+Introduce new layouts
 
 
 🚀 How to Use
-Step 1 — Prepare Your Input File
+1. Prepare Your Input File
 Ensure your report:
 
+Contains structured sections (e.g. Status, Risks, Updates)
+Uses tables or defined layout
 Is reasonably complete (even if rough)
-Contains core sections such as:
-
-Status
-Risks / Issues
-Key updates
 
 
-Uses existing tables or structured layout
-
-
-Step 2 — Load the Prompt
+2. Load the Prompt
 
 Open Microsoft 365 Copilot (Word, Excel, or Agent Builder)
-Paste the prompt from the prompt file in this repository
+Copy the prompt from the /prompt file
 Attach or reference your status report
 
 
-Step 3 — Run the Prompt
-Ask Copilot to process the attached file using the prompt.
+3. Run the Prompt
+Execute the prompt against the file.
 Copilot will:
 
 Refine wording for executive readability
@@ -62,47 +82,56 @@ Standardise risks and issues
 Inject missing executive-level content (in-place only)
 
 
-Step 4 — Review the Output
-Validate that:
+4. Review the Output
+Validate the result meets the following:
 
-✅ Structure is unchanged
-✅ Tone is professional, neutral, and executive-level
-✅ Risks follow required formatting
-✅ RAG status is logically aligned
-✅ No new scope, dates, or budget have been introduced
+✅ Structure unchanged
+✅ Professional, neutral tone
+✅ Risks correctly formatted
+✅ RAG status logically aligned
+✅ No new scope, dates, or budget introduced
 
 
 🧠 What the Prompt Enforces
 Executive-Level Writing
 
-Clear, concise, and outcome-focused
-No humour, sarcasm, or informal tone
+Clear, concise, outcome-focused
+No:
+
+humour
+sarcasm
+informal language
+
+
 No delivery-level or internal commentary
 
 
-Structural Integrity (Non-Negotiable)
-
-No changes to:
+Structural Integrity ✅
+Strictly preserved:
 
 Tables
 Columns
 Worksheet layout
-Headings or ordering
+Headings
+Ordering
 
 
-Content is rewritten only within existing fields
+Content is rewritten within existing fields only
 
 
 Risk & Issue Standardisation
 
-Consistent numbering (R01, R02, R03)
+Sequential numbering: R01, R02, R03
 Clear treatment actions
-Realistic executive reporting (no “no risks” placeholders)
+No “no risks” placeholders
+Realistic, sponsor-level visibility
 
 
 Governance Controls
+The prompt enforces:
 
-No invention of:
+
+❌ No invention of:
 
 Scope
 Dates
@@ -110,47 +139,49 @@ Budget
 Benefits
 
 
-Missing or unclear information is flagged in-place
+
+⚠️ Mandatory flagging (in-place) if:
+
+Information is missing
+Assumptions are present
+Sponsor action is required
+
+
 
 
 ✅ Expected Outcome
-After running this prompt, your report will be:
+After using this prompt, your report will be:
 
-Executive-ready
-Governance-compliant
-Structurally identical to the original
-Clear, neutral, and defensible
+✔ Executive-ready
+✔ Governance-compliant
+✔ Structurally identical to the original
+✔ Clear, neutral, and defensible
 
 
 🚫 Common Mistakes to Avoid
+Avoid using this prompt with:
 
-Uploading unstructured or heavily narrative documents
-Expecting the prompt to:
+Unstructured or narrative documents
+Reports with no defined sections
+Missing or empty Risks/Issues sections
+
+Do not expect the prompt to:
 
 Redesign layouts
 Create new report formats
-
-
-Including incomplete risk sections with no context
-Assuming Copilot will infer missing core project data
+Infer missing core project data
 
 
 💡 Usage Tips
-
-Works best with:
+Best results are achieved when used with:
 
 Standard PMO templates
-RAID-aligned reporting structures
-
+RAID-aligned reporting formats
+Regular reporting cycles (weekly/monthly)
 
 Ideal for:
 
-Weekly or monthly reporting cycles
 Steering Committee packs
+Sponsor reporting
 Executive briefings
-
-
-Can be reused as part of a:
-
-Copilot Agent
-PMO reporting standard toolkit
+PMO governance uplift
